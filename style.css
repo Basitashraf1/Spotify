@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(223, 230, 143);
+    overflow: hidden;
+    
+}
+nav{
+    height: 60px;
+    width: 100vw;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    
+}
+.container{
+    border-radius: 10px;
+    height: 70vh;
+    width: 80vw;
+    background-image: url("pexels-photo-894156.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    overflow-y: scroll;
+    margin-left: 125px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.songItem{
+    height: 50px;
+    width: 400px;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px black solid;
+    border-radius: 50px;
+    margin: 10px 0px 10px 0px ;
+    font-family: 'Poppins', sans-serif;
+}
+.songItem img{
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+}
+.timestamp{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.input{
+    width: 84vw;
+    align-self: center;
+    /* margin-left: 30px; */
+    cursor: pointer;
+}
+.controls{
+    height: 100px;
+    width: 100vw;
+    background-color: black;
+}
+.logo{
+    height: 25px;
+    width: 40px;
+}
+.log{
+    color: green;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: larger;
+    font-weight: 600;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: -30px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+.icons{
+    color: white;
+    margin-left: -90px;
+}
+.gif-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 400px;
+    margin-left: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-size: smaller;
+}
+.gif{
+    height: 20px;
+    width: 50px;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+.controls{
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+}
+.songInfo{
+    color: white;
+    margin-left: 100px;
+}
+.icons{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: larger;
+    margin-left: -150px;
+
+}
+
+
+h2{
+    margin: 10px 0px 10px 10px;
+}
+
+i{
+    cursor: pointer;
+}
